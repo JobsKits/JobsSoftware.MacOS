@@ -14,4 +14,6 @@ open https://developer.android.com/studio
 open https://mac.macxz.com/
 # 超级右键
 open https://apps.apple.com/cn/app/超级右键-irightmouse/id1497428978?mt=12
+# LookinServer
+open https://lookin.work/get/
 

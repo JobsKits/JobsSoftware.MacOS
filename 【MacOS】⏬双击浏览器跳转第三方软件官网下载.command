@@ -16,4 +16,5 @@ open https://mac.macxz.com/
 open https://apps.apple.com/cn/app/超级右键-irightmouse/id1497428978?mt=12
 # LookinServer
 open https://lookin.work/get/
-
+# figma
+open https://www.figma.com/downloads/

@@ -18,3 +18,10 @@ open https://apps.apple.com/cn/app/超级右键-irightmouse/id1497428978?mt=12
 open https://lookin.work/get/
 # figma
 open https://www.figma.com/downloads/
+# claude
+open https://claude.ai/downloads
+# chatgpt
+open https://chatgpt.com/zh-Hans-CN/download/
+open https://chatgpt.com/zh-Hans-CN/features/desktop/
+# 视频解码播放器
+open videolan.org

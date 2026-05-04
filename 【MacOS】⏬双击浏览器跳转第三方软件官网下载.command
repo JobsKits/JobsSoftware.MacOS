@@ -25,3 +25,5 @@ open https://chatgpt.com/zh-Hans-CN/download/
 open https://chatgpt.com/zh-Hans-CN/features/desktop/
 # 视频解码播放器
 open videolan.org
+# 剪切板增强工具
+open https://chigusa-web.com/clibor-for-mac-en/download/

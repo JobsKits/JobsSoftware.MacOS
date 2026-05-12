@@ -27,3 +27,5 @@ open https://chatgpt.com/zh-Hans-CN/features/desktop/
 open videolan.org
 # 剪切板增强工具
 open https://chigusa-web.com/clibor-for-mac-en/download/
+# codex
+open https://openai.com/codex/

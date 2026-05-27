@@ -29,3 +29,5 @@ open videolan.org
 open https://chigusa-web.com/clibor-for-mac-en/download/
 # codex
 open https://openai.com/codex/
+# AiMaMi
+https://github.com/borawong/AiMaMi/releases

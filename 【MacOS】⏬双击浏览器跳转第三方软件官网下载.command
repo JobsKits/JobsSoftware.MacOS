@@ -49,6 +49,7 @@ open_download_pages() {
     "https://www.videolan.org/"
     "https://chigusa-web.com/clibor-for-mac-en/download/"
     "https://openai.com/codex/"
+    "https://otty.sh/"
     "https://github.com/borawong/AiMaMi/releases"
   )
 

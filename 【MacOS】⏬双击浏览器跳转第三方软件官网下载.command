@@ -54,6 +54,7 @@ show_script_intro_and_wait() {
 open_download_pages() {
   local url=""
   local urls=(
+    "https://www.hammerspoon.org/"
     "https://zh.snipaste.com/"
     "https://www.google.com/intl/zh-CN/chrome/"
     "https://telegram.org/"

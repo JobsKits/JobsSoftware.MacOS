@@ -2,7 +2,19 @@
 
 ![Jobs出品，必属精品](https://picsum.photos/1500/400)
 
-[toc]
+<!-- jobs-toc:start -->
+<!-- jobs-toc:source {"v":2,"token":"[toc]"} -->
+<details>
+<summary>📚 目录（点击展开 / 收起）</summary>
+
+- [一、目录结构](#repository-layout)
+- [二、脚本流程](#repository-script-flows)
+  - [【MacOS】⏬双击浏览器跳转第三方软件官网下载.command](#jobs-toc-heading-3)
+  - [【MacOS】✂️源文件压缩拆分➤子卷.command](#jobs-toc-heading-4)
+  - [【MacOS】🧩子卷➤合而为一源文件.command](#jobs-toc-heading-5)
+
+</details>
+<!-- jobs-toc:end -->
 
 [目录结构](#repository-layout) · [脚本流程](#repository-script-flows)
 
@@ -29,7 +41,7 @@
 
 ## 二、<span id="repository-script-flows">脚本流程</span> <a href="#前言" style="font-size:17px; color:green;"><b>🔼</b></a> <a href="#🔚" style="font-size:17px; color:green;"><b>🔽</b></a>
 
-### [【MacOS】⏬双击浏览器跳转第三方软件官网下载.command](./【MacOS】⏬双击浏览器跳转第三方软件官网下载.command)
+### <span id="jobs-toc-heading-3" data-jobs-toc="v2">[【MacOS】⏬双击浏览器跳转第三方软件官网下载.command](./【MacOS】⏬双击浏览器跳转第三方软件官网下载.command)</span><!-- jobs-toc:heading-end -->
 
 > **目的：** 批量打开脚本预设的软件网站，方便在浏览器中选择下载。
 
@@ -37,7 +49,7 @@
 * 依次用系统浏览器打开预设的软件官网及指定第三方下载页。
 * 在浏览器中自行核对软件和来源并下载；脚本结束时输出访问结果，不自动安装软件。
 
-### [【MacOS】✂️源文件压缩拆分➤子卷.command](./【MacOS】✂️源文件压缩拆分➤子卷.command/【MacOS】✂️源文件压缩拆分➤子卷.command)
+### <span id="jobs-toc-heading-4" data-jobs-toc="v2">[【MacOS】✂️源文件压缩拆分➤子卷.command](./【MacOS】✂️源文件压缩拆分➤子卷.command/【MacOS】✂️源文件压缩拆分➤子卷.command)</span><!-- jobs-toc:heading-end -->
 
 > **目的：** 把超过所选体积阈值的文件拆成连续编号子卷，便于分批保存或传输。
 
@@ -48,7 +60,7 @@
 * 检查生成结果，再决定是否删除原文件。
   * 只有精确输入 `YES` 才删除；其它输入保留原文件。
 
-### [【MacOS】🧩子卷➤合而为一源文件.command](./【MacOS】🧩子卷➤合而为一源文件.command/【MacOS】🧩子卷➤合而为一源文件.command)
+### <span id="jobs-toc-heading-5" data-jobs-toc="v2">[【MacOS】🧩子卷➤合而为一源文件.command](./【MacOS】🧩子卷➤合而为一源文件.command/【MacOS】🧩子卷➤合而为一源文件.command)</span><!-- jobs-toc:heading-end -->
 
 > **目的：** 按编号顺序把已有子卷合并回完整文件。
 

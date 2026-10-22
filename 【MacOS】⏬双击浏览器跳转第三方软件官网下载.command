@@ -71,6 +71,7 @@ open_download_pages() {
     "https://chigusa-web.com/clibor-for-mac-en/download/"
     "https://openai.com/codex/"
     "https://otty.sh/"
+    "https://pdfexpert.com/"
   )
 
   for url in "${urls[@]}"; do

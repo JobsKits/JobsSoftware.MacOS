@@ -2,6 +2,7 @@
 # jobs-markdown-toc:start
 "/.jobs-markdown-toc/README.md" filter=jobs-markdown-toc
 "/README.md" filter=jobs-markdown-toc
+"/打开显示桌面快捷键.command/README.md" filter=jobs-markdown-toc
 "/\343\200\220MacOS\343\200\221\342\234\202\357\270\217\346\272\220\346\226\207\344\273\266\345\216\213\347\274\251\346\213\206\345\210\206\342\236\244\345\255\220\345\215\267.command/README.md" filter=jobs-markdown-toc
 "/\343\200\220MacOS\343\200\221\360\237\247\251\345\255\220\345\215\267\342\236\244\345\220\210\350\200\214\344\270\272\344\270\200\346\272\220\346\226\207\344\273\266.command/README.md" filter=jobs-markdown-toc
 # jobs-markdown-toc:end

@@ -10,15 +10,16 @@
 - [一、目录结构](#repository-layout)
 - [二、脚本流程](#repository-script-flows)
   - [【MacOS】⏬双击浏览器跳转第三方软件官网下载.command](#jobs-toc-heading-3)
-  - [【MacOS】✂️源文件压缩拆分➤子卷.command](#jobs-toc-heading-4)
-  - [【MacOS】🧩子卷➤合而为一源文件.command](#jobs-toc-heading-5)
+  - [打开显示桌面快捷键.command](#jobs-toc-heading-4)
+  - [【MacOS】✂️源文件压缩拆分➤子卷.command](#jobs-toc-heading-5)
+  - [【MacOS】🧩子卷➤合而为一源文件.command](#jobs-toc-heading-6)
 
 </details>
 <!-- jobs-toc:end -->
 
 [目录结构](#repository-layout) · [脚本流程](#repository-script-flows)
 
-本仓保存 Mac 软件安装包、软件网站入口，以及大文件拆分和合并工具。
+本仓保存 Mac 软件安装包、软件网站入口、显示桌面快捷键设置入口，以及大文件拆分和合并工具。
 
 ## 一、<span id="repository-layout">目录结构</span> <a href="#前言" style="font-size:17px; color:green;"><b>🔼</b></a> <a href="#🔚" style="font-size:17px; color:green;"><b>🔽</b></a>
 
@@ -29,6 +30,9 @@
 ├── googlechrome/
 │   └── googlechrome.dmg@001of007 … @007of007
 ├── 【MacOS】⏬双击浏览器跳转第三方软件官网下载.command
+├── 打开显示桌面快捷键.command/
+│   ├── 打开显示桌面快捷键.command
+│   └── README.md
 ├── 【MacOS】✂️源文件压缩拆分➤子卷.command/
 │   ├── 【MacOS】✂️源文件压缩拆分➤子卷.command
 │   └── README.md
@@ -49,7 +53,15 @@
 * 依次用系统浏览器打开预设的软件官网及指定第三方下载页。
 * 在浏览器中自行核对软件和来源并下载；脚本结束时输出访问结果，不自动安装软件。
 
-### <span id="jobs-toc-heading-4" data-jobs-toc="v2">[【MacOS】✂️源文件压缩拆分➤子卷.command](./【MacOS】✂️源文件压缩拆分➤子卷.command/【MacOS】✂️源文件压缩拆分➤子卷.command)</span><!-- jobs-toc:heading-end -->
+### <span id="jobs-toc-heading-4" data-jobs-toc="v2">[打开显示桌面快捷键.command](./打开显示桌面快捷键.command/打开显示桌面快捷键.command)</span><!-- jobs-toc:heading-end -->
+
+> **目的：** 打开“显示桌面”快捷键的系统设置入口，方便手动配置按键。
+
+* 双击包内脚本后，直接请求系统打开“桌面与程序坞 → 调度中心 → 快捷键”，没有回车确认。
+* 在设置中手动选择“显示桌面”的按键；脚本不会自动绑定快捷键或触发显示桌面。
+* 不同系统版本可能只打开设置页面，届时手动进入对应区域；运行方式和排查见[配套 README](./打开显示桌面快捷键.command/README.md)。
+
+### <span id="jobs-toc-heading-5" data-jobs-toc="v2">[【MacOS】✂️源文件压缩拆分➤子卷.command](./【MacOS】✂️源文件压缩拆分➤子卷.command/【MacOS】✂️源文件压缩拆分➤子卷.command)</span><!-- jobs-toc:heading-end -->
 
 > **目的：** 把超过所选体积阈值的文件拆成连续编号子卷，便于分批保存或传输。
 
@@ -60,7 +72,7 @@
 * 检查生成结果，再决定是否删除原文件。
   * 只有精确输入 `YES` 才删除；其它输入保留原文件。
 
-### <span id="jobs-toc-heading-5" data-jobs-toc="v2">[【MacOS】🧩子卷➤合而为一源文件.command](./【MacOS】🧩子卷➤合而为一源文件.command/【MacOS】🧩子卷➤合而为一源文件.command)</span><!-- jobs-toc:heading-end -->
+### <span id="jobs-toc-heading-6" data-jobs-toc="v2">[【MacOS】🧩子卷➤合而为一源文件.command](./【MacOS】🧩子卷➤合而为一源文件.command/【MacOS】🧩子卷➤合而为一源文件.command)</span><!-- jobs-toc:heading-end -->
 
 > **目的：** 按编号顺序把已有子卷合并回完整文件。
 
